@@ -36,7 +36,7 @@ section{
     text-align: left;
     padding: 50px 25px 50px;
     line-height: 2em;
-    font-size: 4vh;
+    font-size: 6vh;
     font-variant: small-caps;
     font-weight: bolder;
 
@@ -56,6 +56,7 @@ section{
 #img01{
     background-image: url(imagens/background001.jpg);
     background-size: cover;
+    background-position: ;
     background-attachment: fixed;
 }
 
