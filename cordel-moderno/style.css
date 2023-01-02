@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2? family= Passion+One & family= Sriracha & display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Passion One', 'Sriracha', cursive;
+}
+
+body{
+    background-color: lightgrey;
+}
+header{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding-bottom:50px;
+    
+}
+
+header > h1{
+    font-family: 'Passion One', cursiva;
+    font-variant: small-caps;
+    padding-top: 50px;
+    font-size: 10vh;
+}
+header a {
+    color: white;
+    text-decoration: none;
+    font-weight: bolder;
+    font-size: 1.2em;
+}
+
+section{
+    font-family: 'Sriracha', cursiva;
+    text-align: left;
+    padding: 50px 25px 50px;
+    line-height: 2em;
+    font-size: 4vh;
+    font-variant: small-caps;
+    font-weight: bolder;
+
+}
+
+.poema{
+    background-color: white;
+}
+
+.imagen p {
+    background-color: rgba(0, 0, 0, 0.514);
+    display: inline-block;
+    padding: 5px;
+    color: white;
+}
+
+#img01{
+    background-image: url(imagens/background001.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#img02{
+    background-image: url(imagens/background002.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    min-width: 450px;
+}
+
+footer{
+     background-color: black;
+     color: white;
+     text-align: center;
+     padding: 10px;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+}
