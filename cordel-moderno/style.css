@@ -56,7 +56,7 @@ section{
 #img01{
     background-image: url(imagens/background001.jpg);
     background-size: cover;
-    background-position: ;
+    background-position: left center;
     background-attachment: fixed;
 }
 
