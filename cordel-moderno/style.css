@@ -1,4 +1,6 @@
-@import url('https://fonts.googleapis.com/css2? family= Passion+One & family= Sriracha & display=swap');
+@import url('https://fonts.googleapis.com/css2?family= Sriracha & display = swap');
+
+@import url('https://fonts.googleapis.com/css2?family= Passion+One & display = swap');
 
 *{
     margin: 0;
@@ -8,7 +10,9 @@
 }
 
 body{
+    min-height: 100vh;
     background-color: lightgrey;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 header{
     background-color: black;
@@ -22,21 +26,22 @@ header > h1{
     font-family: 'Passion One', cursiva;
     font-variant: small-caps;
     padding-top: 50px;
-    font-size: 10vh;
+    font-size: 6vw;
 }
 header a {
     color: white;
-    text-decoration: none;
+    text-decoration: none;  
     font-weight: bolder;
-    font-size: 1.2em;
+    font-size: 1vw;
 }
 
 section{
     font-family: 'Sriracha', cursiva;
-    text-align: left;
-    padding: 50px 25px 50px;
     line-height: 2em;
-    font-size: 6vh;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    padding-left: 30px;
+    font-size: 3vw;
     font-variant: small-caps;
     font-weight: bolder;
 
@@ -44,8 +49,12 @@ section{
 
 .poema{
     background-color: white;
+   
 }
 
+.imagen{
+    background-color: darkgray;
+}
 .imagen p {
     background-color: rgba(0, 0, 0, 0.514);
     display: inline-block;
@@ -64,7 +73,7 @@ section{
     background-image: url(imagens/background002.jpg);
     background-size: cover;
     background-attachment: fixed;
-    min-width: 450px;
+    
 }
 
 footer{
@@ -72,6 +81,7 @@ footer{
      color: white;
      text-align: center;
      padding: 10px;
+     font-size: 1vw;
 }
 
 footer a {
