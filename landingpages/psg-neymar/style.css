@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family= Righteous & display família= Inter:peso@400;500;600;700 & swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body{
+    background-image: url(img/fundo-neymar.png);
+    height: 100vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    font-family: 'Inter', sans-serif;
+}
+
+.cabecalho{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding-top:30px ;
+}
+.imagen-cabecalho{
+    width: 64PX;
+    margin-left: 100px;
+}
+
+.menu{
+    display: flex;
+    gap: 50px;
+}
+
+.menu-item{
+        color: white;
+        font-family:'Inter', sans-serif;
+        font-size: 17px;
+        font-weight: 400;
+        cursor: pointer;
+}
+
+.menu-button{
+    display: flex;
+    gap:50px;
+    margin-right: 100px;
+}
+
+.menu-button > #entrar{
+    color: white;
+    background: none;
+    border: none;
+    font-weight: 600;
+    font-size: 15px;
+}
+
+.menu-button > #registre{
+    color: white;
+    background:#DA2535;
+    border: none;
+    font-weight: 600;
+    font-size: 15px;
+    padding: 12px 22px;
+    border-radius: 8px;
+}
+
+.menu-button > #registre:hover {
+    background-color: white;
+    color: #DA2535;
+    transition: 0.5s;
+}
+
+
+.conteudo-principal{
+    position: relative;
+    display: flex;
+    text-align: justify;
+    flex-direction: column;
+    color: white;
+    margin-left: 12%;
+    margin-top: 12%;
+    font-family:'Inter', sans-serif;
+    max-width: 100%;
+}
+
+.conteudo-titulo{
+    font-weight: 700;
+    font-size:70px;
+}
+
+.conteudo-paragrafo{
+    font-style: italic;
+    font-size:17px;
+    padding: 20px 0 25px;
+}
+
+.conteudo-button{
+    color: white;
+    background:#DA2535;
+    border: none;
+    width: 150px;
+    font-weight: 600;
+    font-size: 15px;
+    padding: 12px 22px;
+    border-radius: 8px;
+}
+
+.conteudo-button:hover{
+    background-color: white;
+    color: #DA2535;
+    transition: 0.5s;
+}
+
+
