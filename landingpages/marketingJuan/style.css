@@ -117,9 +117,10 @@ body{
 
 .artigo{
     background-color: rgba(0, 0, 0, 0.39);
-    max-width: 400px;
+
+    max-width: 350px;
     min-width: 300px;
-    height: 500px;
+    height: 600px;
     padding: 50px;
     border-radius: 20px;
     position: relative;
