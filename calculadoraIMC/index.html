@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="imcStyle.css">
+    <link rel="shortcut icon" href="imgs/favPEso.png" type="image/x-icon">
+    <title>Calculadora IMC</title>
+</head>
+
+<body>
+    <div class="container">
+        
+        <p class='info'> &#10068;</p>
+        
+
+        <div>
+            <h1 class="tituloForm">CALCULAR O IMC</h1>
+        </div>
+
+        <div>
+            <form class="formulario" autocomplete="off">
+
+                <div class="bg-peso">
+                    <label for="pesoIMC">Digite seu peso :</label>
+                    <input type="text" name="pesoIMC" id="pesoIMC" placeholder="Peso em kg">
+                    <span class="alert-Peso">Peso invalido!</span>
+                </div>
+
+                <div class="bg-altura">
+                    <label for="alturaIMC">Digite sua altura :</label>
+                    <input type="text" name="alturaIMC" id="alturaIMC" placeholder="Altura em centímetros">
+                    <span class="alert-Altura">Altura invalida!</span>
+                </div>
+
+                <button class="button">Calcular!</button>
+
+                <h2 id="resultado"></h2>
+
+            </form>
+
+        </Div>
+
+    </div>
+
+    <div class="popup">
+        <p class="exitTable">X</p>
+        <table>
+            <tr >
+                <td style="background-color: rgb(110, 10, 110);">IMC</td>
+                <td style="background-color: rgb(110, 10, 110);">classificação</td>
+            </tr>
+            <tr>
+                <td>abaixo de 18,5</td>
+                <td>sbaixo do peso</td>
+            </tr>
+            <tr>
+                <td>entre 18,6 e 24,9</td>
+                <td>Peso ideal (parabéns)</td>
+            </tr>
+            <tr>
+                <td>entre 25,0 e 29,9</td>
+                <td>Levemente acima do peso</td>
+            </tr>
+            <tr>
+                <td>entre 30,00 e 34,9</td>
+                <td>Obesidade grau I</td>
+            </tr>
+            <tr>
+                <td>entre 35,0 e 39,9</td>
+                <td>Obesidade gra II (severa)</td>
+            </tr>
+            <tr>
+                <td>acima de 40</td>
+                <td>Obsedidade III (mórbida)</td>
+            </tr>
+        </table>
+
+    <script src="imcScript.js"></script>
+
+    </div>
+
+</body>
+
+</html>
