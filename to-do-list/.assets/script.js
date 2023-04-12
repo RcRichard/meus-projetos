@@ -14,3 +14,10 @@ addToDo.addEventListener('submit', event => {
         event.target.reset()
     }
 })
+
+listToDo.addEventListener('click', event =>{
+    const clickedElement = event.target
+    if(Array.from(clickedElement.classList).includes('trash')){
+        clickedElement.parentElement.remove()
+    }
+})
