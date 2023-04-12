@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href=".assets/style.css">
+    <title>Formulario</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Criar uma conta</h1>
+        </div>
+        <form class="form">
+            <div class="form-control">
+                <label for="username">Nome de usuario</label>
+                <input 
+                type="text" 
+                id="username" 
+                placeholder="Digite seu nome de usuário...">
+                <i class="fas fa-exclamation-circle"></i>
+                <i class="fas fa-check-circle"></i>
+                <small>O nome de usuário é obrigatório</small>
+            </div>
+            
+            <div class="form-control">
+                <label for="email">email</label>
+                <input type="text" id="email" placeholder="Digite seu email...">
+                <i class="fas fa-exclamation-circle"></i>
+                <i class="fas fa-check-circle"></i>
+                <small>por favor, insira um e-mail válido</small>
+            </div>
+
+            <div class="form-control">
+                <label for="password">Senha</label>
+                <input type="text" id="password" placeholder="Digite sua senha...">
+                <i class="fas fa-exclamation-circle"></i>
+                <i class="fas fa-check-circle"></i>
+                <small>Mensagem de erro</small>
+            </div>
+
+            <div class="form-control">
+                <label for="passworConfirm">Confirmação de senha</label>
+                <input type="text" 
+                id="passworConfirm" 
+                placeholder="Digite sua senha novamente...">
+                <i class="fas fa-exclamation-circle"></i>
+                <i class="fas fa-check-circle"></i>
+                <small>AS senhas não conferem</small>
+            </div>
+            <button class="submit">Enviar</button>
+        </form>
+
+    </div>
+    <script src="https://kit.fontawesome.com/a2f4288925.js" crossorigin="anonymous"></script>
+    <script src=".assets/script.js"></script>
+</body>
+
+</html>

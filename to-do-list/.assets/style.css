@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-family: 'Mochiy Pop One', sans-serif, Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: black;
+    color: white;
+}
+
+.container {
+    width: 80%;
+    height: 500px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.title {
+    text-align: center;
+    font-size: 2.6em;
+}
+
+.formSearch {
+    display: flex;
+    justify-content: center;
+    margin: 15px;
+   
+}
+
+.inputSearch {
+    width: 50%;
+    border-radius: 5px ;
+    border: none ;
+    height:30px;
+    padding: 5px;
+    font-size: 1em;
+}
+
+.listToDo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+}
+
+.listItems{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(180, 14, 42) ;
+    margin: 1px;
+    width: 49%;
+    height:40px;
+    padding:5px;
+    border-radius: 5px;
+}
+
+.item{
+    padding: 5px;
+    font-size: 13px;
+}
+.trash{
+    padding: 10px;
+}
+
+.addToDo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 15px;
+    padding-top: 15px;
+}
+
+.addToDoTitle{
+    font-size: 1.3em;
+    margin: 15px;
+}
+
+.inputAddToDo{
+    width: 50%;
+    border-radius: 5px ;
+    border: none ;
+    height:30px;
+    padding: 5px;
+    font-size: 1em;
+}
+
+
