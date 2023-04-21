@@ -9,7 +9,7 @@ let counterSec = 0
 let timer = null
 
 start.addEventListener('click', () => (
-
+    
     timer = setInterval(() => {
         sec.textContent = counterSec + 1
         counterSec++
@@ -34,6 +34,7 @@ start.addEventListener('click', () => (
 
 stop.addEventListener('click', () => {
     clearInterval(timer)
+    
 })
 
 reset.addEventListener('click', () => {
@@ -42,4 +43,5 @@ reset.addEventListener('click', () => {
     sec.textContent = '00'
     counterSec = 0
     counterMin = 0
+    
 })
