@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="Pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,600;1,300;1,600&display=swap"
+        rel="stylesheet">
+    <title>Weather Application</title>
+</head>
+
+<body>
+    <div class="container-application">
+        <h1 class="text-center">Informações do clima</h1>
+        <form data-js="insert-location" class="form-center">
+            <label for="city">Insira o nome de uma Cidade</label>
+            <input class="for-input" type="text" value="São Paulo
+            " name="city" placeholder="Ex:Miami" autofocus>
+        </form>
+        <div data-js="city-card" class="container-card d-none">
+
+            <img data-js="time" src="src/400X300.png" class="card-img">
+
+            <div data-js="time-icon" class="icon-weather">
+                <img src="src/icons/1.svg" alt="">
+            </div>
+
+            <div data-js="weather-details" class="weather-details">
+                <h5 data-js="city-name">Nome da cidade</h5>
+
+                <div data-js="city-weather" class="clima">
+                    <p>Clima</p>
+                </div>
+
+                <div class="display-time">
+                    <span data-js="city-temperature">00</span>
+                    <span>&deg;C</span>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <script src="./js/weather.js"></script>
+    <script src="./js/script.js"></script>
+</body>
+
+</html>
