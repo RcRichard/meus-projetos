@@ -8,7 +8,6 @@ const getWeatherUrl = cityKey => `${baseUrl}currentconditions/v1/${cityKey}?apik
 
 const fetchData = async url => {
     try {
-
         const response = await fetch(url)
         if (!response.ok) {
             throw new Error('Não foi possivel obter os dados ')

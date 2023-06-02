@@ -7,7 +7,20 @@
 
 body {
     background-color: black;
+    background-size: cover;
+    background-repeat: no-repeat;
     text-align: center;
+    backdrop-filter: blur(5px);
+    height: 100vh;
+
+}
+
+.isDay {
+    background-image: url(https://static.mundoeducacao.uol.com.br/mundoeducacao/conteudo_legenda/5ee4ffeb7677b012d277f3351a549f78.jpg);
+}
+
+.isNight {
+    background-image: url(https://jornalrazao.com/storage/images/posts/94d89512a3eda194bb1c2152ea6dfcee.webp);
 }
 
 .text-center {
@@ -31,17 +44,21 @@ body {
     border-radius: 5px;
 }
 
-.card-img {position: relative;
-width: 300px;
-border-radius: 8px;}
+.card-img {
+    position: relative;
+    width: 300px;
+    border-radius: 8px;
+}
 
-.d-none{display: none;}
+.d-none {
+    display: none;
+}
 
-.icon-weather{
+.icon-weather {
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50% ,-30%);
+    transform: translate(-50%, -30%);
     display: none;
 }
 
@@ -56,7 +73,9 @@ border-radius: 8px;}
     background-color: white;
 }
 
-.weather-details h5{font-size: 1em;}
+.weather-details h5 {
+    font-size: 1em;
+}
 
 .clima {
     font-family: Arial, Helvetica, sans-serif;
