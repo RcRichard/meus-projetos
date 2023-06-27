@@ -1,0 +1,25 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.light-center{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #e6e6e6;;
+}
+
+.light-center > img {
+    height: 270px;
+}
+
+.light-on{
+    display: none;
+}
+.light-off{
+    display: none;
+}
